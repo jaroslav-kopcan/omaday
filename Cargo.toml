@@ -1,0 +1,19 @@
+[package]
+name = "omaday"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Daily notes for Omarchy, one Markdown file per day"
+
+[dependencies]
+gtk4 = { version = "0.11", features = ["v4_22"] }
+chrono = "0.4"
+toml = "1"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+strip = true
+lto = "thin"

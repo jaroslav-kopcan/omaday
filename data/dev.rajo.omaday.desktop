@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=omaday
+Comment=Daily notes
+Exec=omaday
+Icon=dev.rajo.omaday
+Terminal=false
+Categories=Office;Utility;
